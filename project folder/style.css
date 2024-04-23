@@ -1,0 +1,43 @@
+/* style.css */
+body {
+    background-color: black;
+    color: #00ff00; /* Bright green color */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for a terminal-like appearance */
+    margin: 0;
+    padding: 0;
+}
+
+#terminal {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #00ff00;
+}
+
+#prompt {
+    display: inline;
+}
+
+input {
+    color: #00ff00;
+    background-color: black;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    color: #00ff00;
+    background-color: black;
+    border: 1px solid #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: black;
+}
+
+#output {
+    padding-top: 20px;
+    white-space: pre-line; /* Keeps text formatting for multiple lines */
+}

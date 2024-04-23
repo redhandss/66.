@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>yes</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="terminal">
+      <div id="prompt">passkey:</div>
+      <input
+        type="password"
+        id="passkey"
+        onkeydown="if (event.key === 'Enter') checkPasskey()"
+      />
+      <button onclick="checkPasskey()">Enter</button>
+      <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
